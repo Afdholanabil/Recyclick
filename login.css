@@ -1,0 +1,104 @@
+body{
+	background-image: url('Picture/Login.png');
+	background-repeat: no-repeat;
+	 background-position:center;
+	/* background-size: cover; */
+   
+}
+a{
+	font-family: Poppins;
+	font-size: 12px;
+	margin-left: 238px;
+
+}
+/* p{
+	font-family: Poppins;
+} */
+b{
+	font-family: Poppins;
+	color: #76BA99;
+	/* font-size: 12px; */
+	/* margin-left: 205px; */
+
+}
+c{
+	font-family: Poppins;
+	/* margin-right: 17px; */
+	/* font-size: 12px; */
+	/* margin-left: px; */
+}
+a1{
+	font-family: Poppins;
+	color: #00000074;
+	font-size: 13px;
+	
+ }
+/* h1{
+	text-align: center;
+	ketebalan font
+	font-weight: 300;
+} */
+span{
+	display : inline;
+ }
+lupa{
+	font-family: Poppins;
+	color: #0000006f;
+	font-style: italic;
+	text-align: right;
+}
+ 
+.tulisan_login{
+	font-family: Poppins;
+	margin-top: 135px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+ 
+.kotak_login{
+	width: 350px;
+	margin-top: 200px;
+	background: rgb(255, 255, 255);
+	/*meletakkan form ke tengah*/
+	margin-left: 220px;
+	/* padding: 30px 20px; */
+	align-items: center;
+
+}
+ 
+label{
+	font-family: Poppins;
+	font-size: 11pt;
+	font-style: Bold;
+}
+input{
+	font-family: Poppins;
+	border-radius: 5px;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	border-color: #76BA99;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	font-family: Poppins;
+	background: #76BA99;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 50px;
+}
+ 
+.link{
+	color: #76BA99;
+	text-decoration: none;
+	font-size: 10pt;
+}

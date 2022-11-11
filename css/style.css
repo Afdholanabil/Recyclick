@@ -1,0 +1,430 @@
+:root{
+    --pr-color :#76BA99;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 1;
+}
+.img-hero{
+    z-index: 2;
+}
+.nav-color{
+    background-color : var(--pr-color);
+    
+}
+.nav-link{
+    font-size: 16px;
+}
+.nav-link.active{
+font-weight: 700;
+}
+.button-second{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none; 
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-second:hover{
+    width: 133px;
+    height: 40px;
+    background-color:#FFDCAE;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all .2s ease-in;
+}
+
+ /* hero */
+ #hero{
+    background: linear-gradient(160deg, var(--pr-color), #FFDCAE);
+    height: 100vh;
+    width: 100%;
+ }
+ .img-hero{
+    /* height: 40%;  */
+    bottom: 10%;
+    padding-right: 100px;
+    margin-top: 10px;
+    
+ }
+ .hero-tagline h1{
+    color: #fff;
+    margin-top: 20%;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+ }
+ .hero-tagline p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+ }
+ .button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+ }
+/* Layanan */
+#layanan{
+    padding: 100px 0;
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--pr-color);
+}
+.sub-title{
+    font-size: 18px;
+    color: black;
+}
+.card-layanan{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+
+    background-color: #EFFFF7 ;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0,0.05);
+    transition: all .2s ease-in;
+}
+.circle-icon{
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .1s ease-in;
+
+}
+.card-layanan h3{
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+.card-layanan p{
+    color: black;
+    font-size: 14px;
+    transition: all .3s ease-in;
+}
+
+.card-layanan:hover{
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+
+    background: linear-gradient(160deg, var(--pr-color), #FFDCAE);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgb(0, 0, 0,0.05);
+    transition: all .2s ease-in;
+}
+.circle-icon:hover{
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+}
+.card-layanan:hover h3 {
+    color: var(--pr-color);
+    font-size: 24px;
+    transition: all .2s ease-in;
+}
+.card-layanan:hover p {
+    color:#fff;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+/* Search Bar */
+#search{
+background-image: url(../assets/img/search.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#search h2{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+#search p{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.input-cari{
+    height: 70px;
+}
+.input-cari:focus{
+    border: none;
+}
+.input-cari .button-secondary{
+    width: 200px;
+    height: 70px;
+    background-size: rgba(225,225,255,0.8);
+    color: var(--pr-color);
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.input-cari .button-pmry{
+    width: 150px;
+    height: 70px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0 10px 10px 0 ;
+}
+/* Rekomendasi */
+#rekomendasi{
+    margin-top: 100px;
+}
+.card{
+    height: 440px;
+    width: 95%;
+    border: none;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: #EFFFF7;
+}
+
+.card-body h4{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-body p{
+    color: #141414;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card:hover{
+    background: linear-gradient(170deg, var(--pr-color), #76BA99, #76BA99, #FFDCAE);
+    box-shadow: 0 10px 20px rgba(0,0,0, .25);
+}
+
+.card:hover .card-body h4{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.card:hover .card-body p{
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+
+/* kategori */
+.button-kategori{
+    width: 260px;
+    height: 60px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+#fitur h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+.card-fitur h5{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+.card-fitur span{
+    color: #fff;
+    font-size: 14px;
+}
+.card-fitur h6{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.card-fitur button{
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-fitur .overlay{
+    background-color: rgba(0,0,0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+.card-fitur .overlay:hover{
+    background-color: rgba(0,0,0, 0.6);
+    opacity: 1;     
+}
+.button-arrow-left{
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+.button-arrow-right{
+    border: none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+#contact{
+    background-image: url(../assets/img/yyy.jpg);
+    margin-top: 158px;
+    padding-right: 0%;
+    padding-left: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact .overlay{
+    background: rgb(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 5%;
+   
+}
+#contact .container{
+    padding: 148px 0 148px 0;
+}
+#contact h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+#contact h6{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 19px 0 14px 0;
+}
+.kontak a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 18px;
+    width: 332px;
+    display: inline-block;
+}
+.linksosmed{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.card-contact{
+    width: 100%;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 50px;
+    margin-top: 60px;
+    
+}
+.card-contact h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--pr-color);
+    text-align: center;
+    margin-bottom: 21px;
+}
+.form-control{
+    background: #C4C4C4;
+    height: 75px !important;
+
+}
+.form-floating label{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: #141414;
+}
+.button-kirim{
+    width: 100%;
+    height: 70px;
+    background: var(--pr-color);
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #EFFFF7;
+    
+}
+footer{
+    width: 100%;
+    height: 270px; 
+    background: #000000;
+}
+.copyright{
+    bottom: 1%;
+    color: #fff;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+ footer a{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+ 

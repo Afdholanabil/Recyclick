@@ -1,0 +1,87 @@
+@media screen and (max-width : 922px) {
+    .input-cari .button-secondary{
+        width: 120px;
+        font-size: 14px;
+    }
+    input-cari .button-pmry{
+      
+        font-size: 24px;}
+        #rekomendasi{
+            margin-top: 100px;
+        }
+        .button-kategori{
+            width: 100%;
+        }
+        #contact h3{
+            font-size: 30px;
+            width: 100%;
+
+        }
+        .card-contact{
+            width: 100%;
+            height: auto;
+            background: #FFFFFF;
+            padding: 52px 50px;
+            margin-top: 50px;
+            
+            
+        }
+        .card-contact h2{
+            font-size: 25px;
+            line-height: 42px;
+            margin-bottom: 21px;
+        }
+        .button-pmry{
+            display: block;
+            width: 100%;
+        }
+        .button-secondary{
+            display: block;
+            width: 100%;
+        }
+}
+
+@media screen and (max-width : 576px) {
+    .hero-tagline h1{
+        line-height: 52px;
+    }
+    .img-hero{
+        width: 75%;
+        height: auto;
+    }
+    h2{
+        font-size: 35px;
+}
+.sub-title{
+    font-size: 16px;
+}
+.card-layanan{
+    margin: 15px 0;
+}
+#search h2{
+    font-size: 42px;
+    line-height: 52px;
+}
+#search p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.input-cari .button-secondary{
+    width: 50%;
+    height: 60px; 
+    border-radius: 0;
+}
+input-cari .button-pmry{
+    width: 30%;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 0 0px 10px 0;
+}
+.input-cari .form-control{
+    height: 60px !important;
+
+}
+}
+@media screen and (max-width : 350px)  {
+    
+}

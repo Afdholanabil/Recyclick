@@ -1,0 +1,99 @@
+body{
+    background-image: url('Picture/Register.png');
+    background-repeat: no-repeat;
+    background-position:center;
+       background-size:cover;
+   }
+   a{
+    font-family: Poppins;
+    
+    /*font-size: 12px;
+     margin-left: 210px; */
+     
+   
+   }
+   
+   z{
+    font-family: Poppins;
+    margin-left: 17px;
+    font-size: 12px;
+    margin-right: 233px;
+    
+    
+   }
+   a1{
+    font-family: Poppins;
+    color: #00000074;
+    
+    font-size: 13px;
+    
+    
+    }
+   h1{
+    text-align: center;
+
+    font-weight: 300;
+    
+    
+   }
+    
+   .tulisan_Register{
+    font-family: Poppins;
+    margin-top: 135px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 26px;
+    
+    
+   }
+    
+   .kotak_Register{
+    width: 350px;
+    
+    background: rgb(255, 255, 255);
+
+    margin-left:950px;
+    padding: 30px 10px;
+    align-items: center;
+    /* border-radius: 500px; */
+    
+   }
+    
+   label{
+    font-family: Poppins;
+    font-size: 11pt;
+
+   }
+   input{
+    font-family: Poppins;
+    
+   }
+    
+   .form_Register{
+    font-family: Poppins;
+    box-sizing : border-box;
+    border-radius: 10px;
+    border: 0.2rem solid #76BA99;
+    width: 100%;
+    /* membuat kolom text field */
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    
+   }
+    
+   .tombol_Register{
+    background: #76BA99;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+   }
+    
+   .link{
+    color: #76BA99;
+    text-decoration: none;
+    font-size: 10pt;
+   }
